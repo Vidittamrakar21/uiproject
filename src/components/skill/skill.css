@@ -1,0 +1,32 @@
+#skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#skill h1{
+    color: white;
+    margin-top: 35px;
+    font-weight: 400;
+}
+
+#icon{
+    height: 600px;
+    width: 800px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mon{
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+}
+
+.mon img{
+    height: 100%;
+    width: 100%;
+}

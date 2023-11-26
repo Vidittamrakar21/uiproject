@@ -1,0 +1,52 @@
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 840px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+#photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+#text{
+    color: #2CD3E1;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+
+#about{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+#about p{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}

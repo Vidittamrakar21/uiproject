@@ -1,0 +1,31 @@
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+#contact h1{
+    color: cyan;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.nun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#tot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    user-select: none;
+}

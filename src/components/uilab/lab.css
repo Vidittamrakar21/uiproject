@@ -1,0 +1,63 @@
+.lab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.bab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-top: 100px;
+}
+.lab3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 100px;
+}
+.lab5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 100px;
+}
+.lab8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 100px;
+}
+
+.lab2 a{
+    color: white;
+    margin-left: 5px;
+}
+.lab3 a{
+    color: white;
+    margin-left: 5px;
+}
+.lab5 a{
+    color: white;
+    margin-left: 5px;
+}
+.lab8 a{
+    color: white;
+    margin-left: 5px;
+}
+
+.gayab{
+    display: none;
+}

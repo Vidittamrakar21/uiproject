@@ -1,0 +1,35 @@
+#bar{
+    height: 100vh;
+    width: 180px;
+    border-right: 1px solid #183D3D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    user-select: none;
+}
+.item svg{
+    margin-left: 10px;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.353);
+
+}
+.item h4{
+    color: white;
+    font-weight: 400;
+    margin-left: 15px;
+}
