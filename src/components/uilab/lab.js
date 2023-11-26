@@ -9,7 +9,7 @@ function Lab(){
     const [ulab8,show8 ] = useState(false)
 
     const lab4 = "/UIUX/lab4/221b440_lab4_Pierce.pdf"
-    const lab7 = "/UIUX/lab7_juetpage/index.html"
+    const lab7 = "https://lab7juetpage.netlify.app/"
     const openLabFolder = () => {
         window.open(lab4, '_blank');
       };
