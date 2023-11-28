@@ -16,46 +16,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    flex-direction: column;
     margin-top: 100px;
 }
 .lab3{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
    
-    margin-top: 100px;
+    
 }
 .lab5{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    margin-top: 100px;
+    flex-direction: column;
+    margin-top: 200px;
 }
 .lab8{
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    margin-top: 100px;
+    flex-direction: column;
+    margin-top: 200px;
 }
 
 .lab2 a{
-    color: white;
-    margin-left: 5px;
+    color: cyan;
+    margin-top: 25px;
+    text-decoration: none;
 }
 .lab3 a{
-    color: white;
-    margin-left: 5px;
+    color: cyan;
+    margin-top: 25px;
+    text-decoration: none;
 }
 .lab5 a{
-    color: white;
-    margin-left: 5px;
+    color: cyan;
+    margin-top: 25px;
+    text-decoration: none;
 }
 .lab8 a{
-    color: white;
-    margin-left: 5px;
+    color: cyan;
+    margin-top: 25px;
+    text-decoration: none;
 }
 
 .gayab{
