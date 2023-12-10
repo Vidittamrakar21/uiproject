@@ -1,6 +1,7 @@
 import './lab.css';
 import { useState } from 'react';
 
+
 function Lab(){
     const [folder,showfolder ] = useState(true)
     const [ulab3,show3 ] = useState(false)
@@ -9,7 +10,7 @@ function Lab(){
     const [ulab8,show8 ] = useState(false)
 
     const lab4 = "/UIUX/lab4/221b440_lab4_Pierce.pdf"
-    const lab7 = "https://lab7juetpage.netlify.app/"
+    const lab7 = "/UIUX/juetpage/index.html"
     const lab1 = "/UIUX/lab1uiux.pdf"
     const lab9 = "/UIUX/CR7.mp4"
     const openLabFolder = () => {

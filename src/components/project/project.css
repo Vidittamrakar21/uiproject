@@ -10,6 +10,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #040D12;
+    min-height: 830px;
 }
 #pro h1{
     color: white;
@@ -20,9 +22,9 @@ section{
 .project{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-    height: 300px;
+    height: 550px;
     width: 450px;
     /* border: 1px solid white; */
     cursor: pointer;
@@ -44,4 +46,72 @@ section{
     height: 100%;
     width: 100%;
     border-radius: 15px;
+}
+
+.project p{
+    color: rgb(226, 224, 224);
+    font-size: 16px;
+    text-align: left;
+    padding: 35px;
+}
+
+@media only screen and (max-width:600px){
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    
+    #pro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #040D12;
+        min-height: 1000px;
+    }
+    #pro h1{
+        color: white;
+        margin-top: 35px;
+        font-weight: 400;
+    }
+    
+    .project{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        height: 650px;
+        width: 320px;
+        /* border: 1px solid white; */
+        cursor: pointer;
+    }
+    
+    .project h3{
+        color: white;
+        font-weight: 400;
+    }
+    
+    .proj{
+        height: 200px;
+        border-radius: 15px;
+        width: 300px;
+      
+    }
+    
+    .proj img{
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .project p{
+        color: rgb(226, 224, 224);
+        font-size: 16px;
+        text-align: left;
+        padding: 35px;
+    }
+    
 }

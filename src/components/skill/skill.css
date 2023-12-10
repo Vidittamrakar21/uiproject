@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-height: 750px;
+    background-color: #040D12;
 }
 #skill h1{
     color: white;
@@ -21,12 +23,49 @@
 }
 
 .mon{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     padding: 20px;
 }
 
 .mon img{
     height: 100%;
     width: 100%;
+}
+
+@media only screen and (max-width:600px){
+    #skill{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 1200px;
+        background-color: #040D12;
+    }
+    #skill h1{
+        color: white;
+        margin-top: 35px;
+        font-weight: 400;
+    }
+    
+    #icon{
+        height: 1000px;
+        width: 320px;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .mon{
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+    }
+    
+    .mon img{
+        height: 100%;
+        width: 100%;
+    }
 }

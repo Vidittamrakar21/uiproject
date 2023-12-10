@@ -5,7 +5,7 @@ function Contact(){
         window.location.href = "mailto:vidit.tamrakar16@gmail.com"
     }
     function linked(){
-        window.location.href = "https://www.linkedin.com/in/vidit-tamrakar-877a58249"
+        window.location.href = "https://www.linkedin.com/in/vidit-tamrakar-877a58249/"
     }
     function git(){
         window.location.href = "https://github.com/Vidittamrakar21"
