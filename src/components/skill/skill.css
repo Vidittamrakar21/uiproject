@@ -7,9 +7,12 @@
     background-color: #040D12;
 }
 #skill h1{
-    color: white;
+  
     margin-top: 35px;
-    font-weight: 400;
+    font-weight: 600;
+    background: linear-gradient(90deg, #B10101 , #79017C);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 #icon{
@@ -43,9 +46,14 @@
         background-color: #040D12;
     }
     #skill h1{
-        color: white;
+      
         margin-top: 35px;
         font-weight: 400;
+        margin-top: 35px;
+        font-weight: 600;
+        background: linear-gradient(90deg, #B10101 , #79017C);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
     }
     
     #icon{
