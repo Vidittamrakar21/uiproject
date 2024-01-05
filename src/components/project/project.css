@@ -1,8 +1,11 @@
 section{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: start; */
+    justify-content: start;
+    flex-wrap: wrap;
     margin-top: 80px;
+    width: 920px;
+  
 }
 
 #pro{
@@ -28,6 +31,7 @@ section{
     width: 450px;
     /* border: 1px solid white; */
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .project h3{
@@ -55,6 +59,16 @@ section{
     padding: 35px;
 }
 
+
+.inc{
+    height: 750px;
+}
+
+.top{
+    margin-top: -180px;
+}
+
+
 @media only screen and (max-width:600px){
     section{
         display: flex;
@@ -62,8 +76,17 @@ section{
         justify-content: center;
         flex-direction: column;
         margin-top: 80px;
+        flex-wrap: nowrap;
+        width: 330px;
+    }
+
+    .top{
+        margin-top: 190px;
     }
     
+    .inc{
+        height: 850px;
+    }
     #pro{
         display: flex;
         align-items: center;
